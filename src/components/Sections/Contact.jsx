@@ -60,7 +60,7 @@ export default function Contact() {
             }}
           >
             <ContactDetailsInformation>
-              <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+              <div style={{display: "flex",paddingBottom: "50px", alignItems:"center",flexDirection:"column",justifyContent:"center"}} className="col-xs-12 col-sm-12 col-md-6 col-lg-6">
                 <Form>
                   <label className="font13">First name:</label>
                   <input
@@ -126,9 +126,20 @@ const ContactDetailsContainer = styled.div`
 
   @media (max-width: 560px){
     margin-left: 10px;
+    margin-bottom: 40px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+  }
+
+  @media (max-width: 1060px){
+    margin-top: 30px;
+    margin-bottom: 40px;
+    margin-left: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
     justify-content: center;
   }
 `;
@@ -140,6 +151,12 @@ const ContactDetailsInformation = styled.div`
   justifycontent: flex-start;
 
   @media (max-width: 560px) {
+    flex-direction: column;
+    align-items: center;
+    justify-content_center;
+  }
+
+  @media (max-width: 1060px) {
     flex-direction: column;
     align-items: center;
     justify-content_center;
@@ -177,7 +194,7 @@ const Wrapper = styled.section`
 `;
 const HeaderInfo = styled.div`
   padding: 70px 0 30px 0;
-  @media (max-width: 860px) {
+  @media (max-width: 1060px) {
     text-align: center;
   }
 `;

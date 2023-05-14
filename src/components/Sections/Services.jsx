@@ -68,9 +68,11 @@ const MissionTrailing = styled.div`
   align-items: center;
   justify-content: center;
   font-weight: 600;
+  margin-left: 20px;
 
   @media (max-width: 520px) {
     margin-top: 15px;
+    margin-left: 0px;
   }
 `;
 
@@ -81,9 +83,11 @@ const MissionTitle = styled.div`
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  margin-right: 20px;
 
   @media (max-width: 520px){
     margin-bottom: 15px;
+    margin-right:0px;
   }
 `;
 

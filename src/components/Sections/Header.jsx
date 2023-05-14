@@ -44,7 +44,7 @@ export default function Header() {
           />
           <DotsWrapper>
             <Img
-              className="radius8"
+              className="radius8 hide-at-medium"
               src={SafeSmallImage}
               alt="office"
               style={{

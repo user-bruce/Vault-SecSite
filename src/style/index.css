@@ -269,3 +269,10 @@
   .whiteBg {
     background-color: #fff;
   }
+
+  /* Custom CSS */
+  .hide-at-medium{
+    @media (max-width: 1060px){
+      display: none !important;
+    }
+  }

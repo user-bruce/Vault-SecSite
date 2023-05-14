@@ -77,13 +77,8 @@ const SponsoredCompaniesRow = styled.div`
   align-items: center;
   justify-content: center;
   margin: 50px 0px;
+  flex-wrap: wrap;
 
-  @media (max-width: 560px){
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
 `;
 
 const SponsoredCompany = styled.div`
@@ -95,6 +90,10 @@ const SponsoredCompany = styled.div`
   justify-content: center;
 
   @media (max-width: 560px){
+    margin: 15px 0;
+  }
+
+  @media (max-width: 1500px){
     margin: 15px 0;
   }
 `;

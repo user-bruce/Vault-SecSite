@@ -23,28 +23,34 @@ export default function Projects() {
             
             <div style={{ display: "flex", flexDirection: "column" }}>
               <div
-                className="row"
+                // className="row"
                 style={{
-                  margin: "0 25px",
+                  margin: "0 15px",
                   lineHeight: "1.5em",
-                  height: "15em",
+                  height: "10em",
                   overflow: "hidden",
                   textOverflow: "ellipsis",
                   width: "100%",
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent:"flex-start",
+                  flexDirection: "column"
+                  
+              
                 }}
               >
-                <span style={{ fontSize: "16", fontWeight: "600" }}>
+                <p style={{textAlign: "center", marginBottom:"45px", width:"100%", fontSize: "16", fontWeight: "600" }}>
                   ALLIED SAFE & VOLT CO.
-                </span>
-                <span style={{textAlign: "center"}}>
+                </p>
+                <p style={{textAlign: "center"}}>
                   To get into the system, a user needs to log in. To do that,
                   they need to create an account. You will be creating a
                   dual-use login screen that will allow a user to either log in
                   or sign up for a new account.
-                </span>
+                </p>
               </div>
               <div className="row flexCenter">
-                <div style={{ margin: "50px 0", width: "200px" }}>
+                <div style={{ margin: "30px 0 40px 0px", width: "200px" }}>
                   <FullButton
                     title="Read More"
                     action={() => alert("clicked")}
